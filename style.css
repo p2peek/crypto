@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: #ef959d; */
+    /* color: #fff; */
+}
+html, body{
+    background-image: url(background.jpg);
+    /* background-color: black; */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    height: 30%;
+}
+.nav-content{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-content img{
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 50px;
+    display: block;
+}
+.nav-info{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    gap: 70px;
+    padding-right: 100px;
+}
+.nav-info a{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.mid-section{
+    position: relative;
+    height: 80vh;
+}
+.body-content{
+    text-align: center;
+    align-items: center;
+    height: 50%;
+}
+.body-content h1{
+    padding-top: 120px;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h1{
+    color: yellow;
+}
+/* .input{
+    padding-left: 20px;
+    border-radius: 12px;
+    transition: box-shadow .4s;
+    box-shadow: inset 0 0 1px 1px rgba(255,255,255,.3);
+    background-color: rgba(0,0,0,.2);
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    cursor: text;
+    box-sizing: border-box;
+    box-shadow: rgba(24, 26, 27, 0.3) 0px 0px 1px 1px inset;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.input-icon{
+    pointer-events: none;
+    user-select: none;
+    transition: color .4s;
+    margin-right: 5px;
+} */
